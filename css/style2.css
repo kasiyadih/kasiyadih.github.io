@@ -47,3 +47,32 @@ li>a:hover{
 h2,h3,p{
     font-family: 'Poppins', sans-serif;
 }
+
+.about-me{
+    width: 80%;
+    margin: 0 auto;
+
+    }
+
+    /* ###############################footer style################################# */
+    .footer{
+    
+        width: 100%;
+        background: rgba(0, 0, 0, 0.653);
+        padding: 2em;
+        text-align: center;
+        
+    }
+    .footer-icon{
+        color: aliceblue;
+    }
+    .fa-brands{
+        margin: .5em;
+    }
+    .fa-brands:hover{
+        color: aqua;
+    }
+    .foot-text{
+        font-size: 1em;
+        color: aliceblue;
+    }
