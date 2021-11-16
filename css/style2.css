@@ -44,15 +44,47 @@ h1,a{
 li>a:hover{
     border-bottom: 2px solid white;
 }
-h2,h3,p{
+h3,p{
+    margin-bottom: .5em;
     font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1.5em;
+    border-bottom: 3px solid rgb(247, 98, 98);
 }
 
 .about-me{
     width: 80%;
     margin: 0 auto;
+    
+ }
 
-    }
+ .abc{
+     margin: 1.5em;
+ }
+
+
+ .count{
+     width: 70%;
+     margin: 0 auto;
+     
+ }
+ .about-count span{
+     color: rgb(240, 93, 93);
+ }
+ .about-count{
+     float: left;
+     width: 25%;
+     text-align: center;
+     font-weight: 1000;
+ }
+ .count::after{
+    content: '';
+    clear: both;
+    display: block;
+     
+ }
 
     /* ###############################footer style################################# */
     .footer{
@@ -76,3 +108,45 @@ h2,h3,p{
         font-size: 1em;
         color: aliceblue;
     }
+    /* ######################### conact me ###################################3 */
+   
+
+    .banner-contect{
+        float: left;
+        width: 50%;
+    }
+    .banner{
+        background: linear-gradient(25deg,#d64c7f,#ee4758 50%); 
+        margin: 1.5em;  
+    }
+    .banner::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .banner-right ,.banner-left{
+        padding: 1em;
+        
+    }
+    .tsize{
+        font-size:large ;
+        border: 2px solid aliceblue;
+        padding-top:.5em;
+        
+        padding-bottom: .5em;
+        padding-left: 3em;
+        padding-right: 3em;
+        color: aliceblue;
+        word-spacing: .8pc;
+        font-weight: 800;
+        font-family: 'Poppins', sans-serif;
+        float:right;
+        
+    }
+.tsize1{
+    margin-top: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 600;
+}
